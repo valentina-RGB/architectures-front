@@ -1,0 +1,32 @@
+@import 'tailwindcss';
+@import './fonts.css';
+
+@theme {
+  --font-nunito: 'Nunito', sans-serif;
+  --font-nunitosans: 'Nunito Sans', sans-serif;
+  --font-inter: 'Inter', sans-serif;
+}
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.autofill-fix:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px var(--input-bg) inset !important;
+  -webkit-text-fill-color: #ffffff !important;
+  transition: background-color 5000s ease-in-out 0s;
+  border: none !important;
+}
+
+
+.autofill-fix:-webkit-autofill:focus,
+.autofill-fix:-webkit-autofill:hover,
+.autofill-fix:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0px 1000px var(--input-bg) inset !important;
+  -webkit-text-fill-color: #ffffff !important;
+  border: none !important;
+  outline: none !important;
+}

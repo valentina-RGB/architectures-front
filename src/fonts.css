@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Nunito';
+  src: url('./assets/fonts/Nunito/Nunito-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900; /* rango completo */
+  font-style: normal;
+}
+
+/* Nunito Sans Variable */
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/Intern/Inter-VariableFont_opsz\,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+/* Inter Variable */
